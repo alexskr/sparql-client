@@ -23,13 +23,13 @@ Gem::Specification.new do |gem|
   gem.extensions         = %w()
   gem.test_files         = %w()
 
-  gem.required_ruby_version      = '>= 1.8.1'
+  gem.required_ruby_version      = '>= 1.9.2'
   gem.requirements               = []
-  gem.add_runtime_dependency     'rdf',       '>= 1.0'
+  gem.add_runtime_dependency     'rdf',       '>= 1.1'
   gem.add_runtime_dependency     'net-http-persistent', '2.9.4'
   gem.add_runtime_dependency     'json_pure', '>= 1.4'
-  gem.add_development_dependency 'sparql',    '>= 1.0' unless RUBY_VERSION < "1.9"
-  gem.add_development_dependency 'rdf-spec',  '>= 1.0'
+  gem.add_development_dependency 'sparql',    '>= 1.1'
+  gem.add_development_dependency 'rdf-spec',  '>= 1.1'
   gem.add_development_dependency 'rspec',     '>= 2.14'
   gem.add_development_dependency 'yard' ,     '>= 0.8'
   gem.post_install_message       = nil
